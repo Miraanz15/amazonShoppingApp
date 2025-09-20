@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    color: white;
 }
 
 /* #divBlock{
@@ -29,6 +28,7 @@
 a{
     text-decoration: none;
     margin-right: 200px;
+    color: white;
 }
 
 #searchButton{
@@ -36,7 +36,7 @@ a{
 }
 
 main{
-    height: 60vh;
+    height: auto;
 }
 
 #divA{
@@ -44,6 +44,7 @@ main{
     height: 100px;
     border: 2px solid #0f1111;
     background-color: rgba(255,0,0,0.5);
+    display: inline-block;
 }
 
 #divB{
@@ -51,6 +52,7 @@ main{
     height: 100px;
     border: 2px solid #0f1111;
     background-color: rgba(0,255,0,0.5);
+    display: inline-block;
 }
 
 #divC{
@@ -58,9 +60,21 @@ main{
     height: 100px;
     border: 2px solid #0f1111;
     background-color: rgba(0,0,255,0.5);
+    display: inline-block;
 }
 
 footer{
     background-color: #0f1111;
     height: 100px;
+    text-align: center;
+}
+
+#fixedAttachment{
+    width: 200px;
+    height: 200px;
+    background-image:url("./images/fixedShoppingImage.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
