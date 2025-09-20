@@ -26,6 +26,7 @@
     border: 5px solid #f08804;
     height: 60px;
     align-items: center; 
+    max-width: 100vw;
 }
 
 #logo{
@@ -89,6 +90,18 @@ footer{
     background-color: #0f1111;
     height: 100px;
     text-align: center;
+    color: white;
+}
+
+#footerLinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footerLinks a{
+    display: inline;
+    text-decoration: none;
 }
 
 #fixedAttachment{
