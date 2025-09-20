@@ -53,7 +53,8 @@ main{
     display: flex;
     justify-content: center;
     align-items:flex-start;
-    height: 50px;
+    height: 100px;
+    background-color: #CBB9A8;
 }
 
 #topBanner div{
@@ -112,4 +113,28 @@ footer{
     position: fixed;
     top: 200px;
     right: 0;
+}
+
+@media (max-width:300px){
+   #topBanner{
+    background-color: green;
+   }
+}
+
+@media (min-width:300px) and (max-width:400px){
+    #topBanner{
+        background-color: pink;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    #topBanner{
+        background-color: red;
+    }
+}
+
+@media (min-width:600px){
+    #topBanner{
+        background-color: blue;
+    }
 }
