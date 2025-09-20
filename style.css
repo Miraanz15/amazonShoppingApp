@@ -19,6 +19,15 @@
     align-items: center; 
 }
 
+#navBar{
+    display:flex;
+    justify-content: space-between;
+    background-color: #0f1111;
+    border: 5px solid #f08804;
+    height: 60px;
+    align-items: center; 
+}
+
 #logo{
     text-decoration: none;
     font-size: 25px;
@@ -38,6 +47,19 @@ a{
 main{
     height: auto;
 }
+
+#topBanner{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 50px;
+}
+
+#topBanner div{
+    font-size: 20px;
+    align-self: center;
+}
+
 
 #divA{
     width: 100px;
@@ -75,6 +97,6 @@ footer{
     background-image:url("./images/fixedShoppingImage.jpg");
     background-size: cover;
     position: fixed;
-    top: 0;
+    top: 200px;
     right: 0;
 }
