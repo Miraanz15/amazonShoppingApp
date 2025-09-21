@@ -123,10 +123,10 @@ footer{
     background-size: cover;
     align-items: center;
     text-align: center;
-    border: 5px solid #0f1111;
-    animation: movingAttachment 5s linear infinite normal;
-    /* position: absolute;
-    left: 50%; */
+    border: 10px solid #0B4F6C;
+    /* border-top: 5px solid #1F271B; */
+    box-shadow:0 0 10px black;
+    animation: movingAttachment 5s linear 0s infinite normal;
 }
 
 @keyframes movingAttachment{
@@ -135,9 +135,12 @@ footer{
     }
     50%{
         transform:rotate(180deg);
+        border-bottom: 10px solid #1F271B;
+        border-left: 10px solid #1F271B;
     }
     100%{
         transform:rotate(360deg);
+        border: 10px solid #1F271B;
     }
 }
 
