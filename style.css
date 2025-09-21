@@ -115,6 +115,32 @@ footer{
     right: 0;
 }
 
+#animatedAttachment{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background-image: url("./images/saleOffer.jpg"); 
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #0f1111;
+    animation: movingAttachment 5s linear infinite normal;
+    /* position: absolute;
+    left: 50%; */
+}
+
+@keyframes movingAttachment{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
 @media (max-width:300px){
    #topBanner{
     background-color: green;
